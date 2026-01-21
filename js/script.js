@@ -1,6 +1,3 @@
-// script.js
-
-// Menambahkan efek scroll halus
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -17,7 +14,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Menambahkan efek paralaks sederhana
 window.addEventListener('scroll', function() {
     const scrolled = window.pageYOffset;
     const intro = document.querySelector('.intro');
@@ -27,7 +23,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Menambahkan kelas aktif saat elemen terlihat di viewport
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -41,16 +36,13 @@ const observer = new IntersectionObserver(function(entries) {
     });
 }, observerOptions);
 
-// Observasi semua kartu kesehatan
 document.querySelectorAll('.health-card').forEach(card => {
     observer.observe(card);
 });
 
-// Inisialisasi saat halaman dimuat
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Website Kesehatan Jasmani & Rohani telah dimuat!');
     
-    // Tambahkan kelas animated untuk intro
     const intro = document.querySelector('.intro');
     if(intro) {
         setTimeout(() => {
