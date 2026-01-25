@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: url('ypt.jpeg') no-repeat center center;
+    background: url('image/ypt.jpeg') no-repeat center center;
     background-size: cover;
     color: white;
     padding: 1rem 0;
