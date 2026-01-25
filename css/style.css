@@ -6,16 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
-    color: #333;
-    line-height: 1.6;
-    overflow-x: hidden;
-}
-
-/* Tata letak header dengan dua logo bulat di kiri dan kanan */
-.header-with-logo {
-    display: flex;
-    align-items: center;
+   position: relative;
     background: url('image/ypt.jpeg') no-repeat center center;
     background-size: cover;
 }
