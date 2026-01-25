@@ -15,17 +15,16 @@ body {
 .header-with-logo:: {
     display: flex;
     align-items: center;
-    /* Ganti baris background di bawah ini */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/ypt.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 3rem 0; /* Menambah padding agar foto lebih terlihat luas */
+    padding: 3rem 0;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
+}
 
-/* Logo kiri dan kanan dengan gaya bulat */
 .header-logo {
     position: relative;
     z-index: 2;
