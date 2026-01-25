@@ -16,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     /* Ganti baris background di bawah ini */
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.smkyptpringsewu.sch.id%2F&psig=AOvVaw1lP6Gxg-ks4TScFXaI5mu5&ust=1769419692915000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjxtqeTsKaSAxVppmMGHR60KzAQjRx6BAgAEBo');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/ypt.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
