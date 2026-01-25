@@ -12,18 +12,11 @@ body {
     overflow-x: hidden;
 }
 
-/* Tata letak header dengan dua logo bulat di kiri dan kanan */
 .header-with-logo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: url('ypt.jpeg') no-repeat center center;
-    background-size: cover;
-    color: white;
-    padding: 1rem 0;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     position: relative;
-    overflow: hidden;
+    background: url('background-header.jpg') no-repeat center center;
+    background-size: cover;
+    ...
 }
 
 .header-with-logo::after {
