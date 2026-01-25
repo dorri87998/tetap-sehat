@@ -34,11 +34,6 @@ body {
 .header-logo {
     position: relative;
     z-index: 2;
-    flex: 0 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Gaya logo bulat */
